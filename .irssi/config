@@ -1,0 +1,40 @@
+chatnets = {
+  saint = {
+    max_kicks = "4";
+    max_msgs = "5";
+    max_query_chans = "5";
+    max_whois = "4";
+    type = "Quassel";
+  };
+};
+
+hilights = (
+  {
+    act_color = "%n";
+    color = "%W";
+    nick = "no";
+    regexp = "yes";
+    text = "http(s)?://[A-Za-z0-9_/&?=%.;~#)(+-]*";
+    word = "yes";
+  }
+);
+
+servers = (
+  {
+    address = "***.***.***.***";
+    chatnet = "saint";
+    password = "************";
+    port = "4242";
+    use_ssl = "yes";
+  }
+);
+
+settings = {
+  core = {
+    nick = "saint";
+    real_name = "Hayden Pearce";
+    timestamp_format = "%Y %m %d %T";
+    user_name = "saint";
+  };
+  "fe-text" = { actlist_sort = "refnum"; };
+};

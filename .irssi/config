@@ -33,7 +33,7 @@ settings = {
   core = {
     nick = "saint";
     real_name = "Hayden Pearce";
-    timestamp_format = "%Y %m %d %T";
+    timestamp_format = "%Y%m%d%H%M%S";
     user_name = "saint";
   };
   "fe-text" = { actlist_sort = "refnum"; };

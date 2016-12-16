@@ -1,5 +1,5 @@
 chatnets = {
-  saint = {
+  ************ = {
     max_kicks = "4";
     max_msgs = "5";
     max_query_chans = "5";
@@ -22,7 +22,7 @@ hilights = (
 servers = (
   {
     address = "***.***.***.***";
-    chatnet = "saint";
+    chatnet = "************";
     password = "************";
     port = "4242";
     use_ssl = "yes";
@@ -31,10 +31,10 @@ servers = (
 
 settings = {
   core = {
-    nick = "saint";
-    real_name = "Hayden Pearce";
+    nick = "************";
+    real_name = "************";
     timestamp_format = "%Y%m%d%H%M%S";
-    user_name = "saint";
+    user_name = "************";
   };
   "fe-text" = { actlist_sort = "refnum"; };
 };
